@@ -24,3 +24,8 @@ set expandtab
 set shiftwidth=2
 set tabstop=2
 set softtabstop=2
+
+call plug#begin('~/vimfiles/plugged')
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+call plug#end()
+let NERDTreeShowHidden=1
