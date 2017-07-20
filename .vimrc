@@ -27,6 +27,7 @@ set softtabstop=2
 
 call plug#begin('~/vimfiles/plugged')
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'scrooloose/nerdcommenter'
 call plug#end()
 let NERDTreeShowHidden=1
 
@@ -34,3 +35,5 @@ set shortmess+=I
 set lines=40
 set columns=160
 set fillchars+=vert:\ 
+
+let mapleader = ","
