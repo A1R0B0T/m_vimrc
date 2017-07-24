@@ -17,6 +17,7 @@ if has("gui_running")
   set guioptions-=r
   set guioptions-=b
   set guioptions-=e
+  set guifont=Consolas:h11:cANSI
 endif
 
 set autoindent
