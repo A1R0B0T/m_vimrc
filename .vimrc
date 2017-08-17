@@ -29,6 +29,7 @@ set softtabstop=2
 call plug#begin('~/vimfiles/plugged')
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'scrooloose/nerdcommenter'
+Plug 'rhysd/vim-clang-format'
 call plug#end()
 let NERDTreeShowHidden=1
 
